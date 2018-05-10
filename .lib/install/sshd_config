@@ -1,0 +1,10 @@
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+UsePAM yes
+
+PermitRootLogin no
+
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+
+Subsystem	sftp	/usr/lib/openssh/sftp-server
