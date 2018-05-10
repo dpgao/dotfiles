@@ -1,0 +1,39 @@
+[user]
+	name = Dapeng Gao
+	email = dapeng@dpgao.cn
+[core]
+	precomposeUnicode = true
+[diff]
+	submodule = log
+[pull]
+	rebase = merges
+[push]
+	followTags = true
+[alias]
+	a = add
+	aa = add -A
+	ae = add -e
+	ai = add -i
+	au = add -u
+	ch = checkout
+	chm = checkout master
+	chd = checkout develop
+	c = commit
+	cm = commit -m
+	ca = commit -a
+	cam = commit -a -m
+	co = commit --amend
+	com = commit --amend -m
+	con = commit --amend --no-edit
+	cao = commit -a --amend
+	caom = commit -a --amend -m
+	caon = commit -a --amend --no-edit
+	ci = commit --interactive
+	d = diff
+	dc = diff --cached
+	dw = diff --word-diff=color
+	dcw = diff --cached --word-diff=color
+	lg = log --all --pretty='%C(auto)%h -%d %<|(99,trunc)%s %Cgreen%cd' --date=short --graph
+	s = status
+	sub = submodule
+	dot = !git --git-dir ~/src/dotfiles.git --work-tree ~
