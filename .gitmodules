@@ -1,0 +1,20 @@
+# Tmux
+[submodule "tmux-colors-solarized"]
+	path = .lib/tmux/tmux-colors-solarized
+	url = https://github.com/seebi/tmux-colors-solarized.git
+
+# Vim
+[submodule "vim-plug"]
+	path = .lib/vim/vim-plug
+	url = https://github.com/junegunn/vim-plug.git
+
+# Zsh
+[submodule "ohmyzsh"]
+	path = .lib/zsh/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "zsh-autosuggestions"]
+	path = .lib/zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "zsh-syntax-highlighting"]
+	path = .lib/zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
